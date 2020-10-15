@@ -43,7 +43,7 @@ public class part2 {
         group nuut = null;
 
         try {
-            bf = new BufferedReader(new FileReader("data2.csv"));
+            bf = new BufferedReader(new FileReader("data.csv"));
             line = bf.readLine();
             while( (line  = bf.readLine()) != null ){
                 String split[] = line.split(",");
