@@ -4,4 +4,3 @@ This is a group project, and team members will be using github for the first tim
 
 # links that might be useful
 https://www.youtube.com/watch?v=9cMWR-EGFuY&ab_channel=MadnessLabs
-haha lol
