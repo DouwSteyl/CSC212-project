@@ -159,7 +159,8 @@ public class part2 {
         knapsack.display();
 
         Solution sol = kp.solve();
-        sol.display();
+        System.out.println(sol.value);
+        //sol.display();
 
 
     }
