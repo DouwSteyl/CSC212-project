@@ -145,7 +145,8 @@ public class part2 {
         for (int x = 0; x < groups.length; x++)
             System.out.println(Groups.get(x).toString());
 
-        System.out.println("\nTo follow are the values that were chosen by the knapsack algorithm, maximizing the weight per bus, while keeping in mind the passenger constraint per bus:");    
+
+        System.out.println("\nTo follow are the values that were chosen by the knapsack algorithm, maximizing the weight per bus, while keeping in mind the passenger constraint per bus:");   
 
         // method calls knapsack within, also removes a group from the list after used, in order not to have duplicate values appearing
         finalObject.removeGroups();
