@@ -67,7 +67,7 @@ public class part2 {
 
         public knapsack(List<group> items, int capacity) {
             part2.knapsack.items = items;
-            this.capacity = capacity;
+            part2.knapsack.capacity = capacity;
         }
 
         public static void display() {
@@ -84,6 +84,7 @@ public class part2 {
 
         public Solution solve() {
             int nitems = items.size();
+            System.out.println(nitems);
             int[][] matrix = new int[nitems + 1][capacity + 1];
 
             for (int i = 0; i <= capacity; i++)
@@ -135,7 +136,7 @@ public class part2 {
             while ((line = bf.readLine()) != null) {
                 String split[] = line.split(",");
 
-                nuut = new group(split[0], Integer.parseInt(split[1]), Integer.parseInt(split[2]));
+                nuut = new group(split[0], Integer.parseInt(split[2]), Integer.parseInt(split[1]));
                 //System.out.println(nuut.toString());
                 Groups.add(nuut);
             }
