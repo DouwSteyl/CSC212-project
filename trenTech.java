@@ -5,7 +5,7 @@ import java.util.List;
 
 
 
-public class part2 {
+public class trenTech {
 
     public int cap = 100;       // maximum capacity of the busses
     public int[][] matrix;      // matrix used to evaluate which way way of filling the busses would be optimal
@@ -14,7 +14,7 @@ public class part2 {
 
     // constructor to initialize arraylist and fill it with the different group
     // objects
-    public part2( String[] groupnames, int[] amountmembers, int[] weight) {
+    public trenTech( String[] groupnames, int[] amountmembers, int[] weight) {
         this.cap = 100;
         this.Groups = new ArrayList<group>(groupnames.length);
         for (int x = 0; x < groupnames.length; x++) {
@@ -138,7 +138,7 @@ public class part2 {
         int weight[] = new int[] { 100, 300, 250, 500, 350, 300, 150, 400, 300, 350, 450, 100, 200, 300, 250 };
 
         // feed the arrays of data into the constructor so it will be put into the list
-        part2 finalObject = new part2( groups, amountmembers, weight);
+        trenTech finalObject = new trenTech( groups, amountmembers, weight);
 
         System.out.println("To follow are the values listed in the List: ");
         for (int x = 0; x < groups.length; x++)
